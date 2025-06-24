@@ -6,7 +6,7 @@ from dash.dependencies import Input, Output
 import plotly.express as px
 from flask import render_template_string
 from datetime import datetime, date
-import os
+
 # Cargar los datos
 file_id = "1PWTw-akWr59Gu7MoHra5WXMKwllxK9bp"
 url = f"https://drive.google.com/uc?export=download&id={file_id}"
